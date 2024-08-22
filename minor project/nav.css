@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  .sidenav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #ddd;
+  }
+  
+  .logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    width:150px;
+    height: auto;
+  }
+
+
+  /* Add this to the existing styles.css */
+
+    .sidenav a {
+      padding: 10px;
+      font-size: 16px;
+    }
+    
+    .logo {
+      width: 180px;
+    }
+  
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white; /* Change background color to black */
+    color: black; /* Change font color to white */
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white(122, 98, 98); /* Change font color to white */
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #878282; /* Change hover background color to darker shade */
+  }
+  
+  
+  

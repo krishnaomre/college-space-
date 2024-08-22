@@ -1,0 +1,85 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;}
+
+
+
+.container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+  
+  .event-container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 2px solid transparent;
+      transition: border-color 0.3s;
+  }
+  
+  .event-container:hover {
+      border-color: gray;
+  }
+  
+  .date, .event-link {
+      margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+      .container {
+          display: grid;
+      }
+  }
+   
+   /* .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.event-container {
+    background-color: #f0f0f0;
+    padding: 30px;
+    margin: 0 10px; /* Increased margin for spacing between containers */
+    /* border: 2px solid transparent;
+    transition: border-color 0.3s;
+} */
+
+/* .event-container:hover {
+    border-color: gray;
+}
+
+.date, .event-link {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack containers vertically on small screens */
+        align-items: center; /* Center align items on small screens */
+    } */
+} */
